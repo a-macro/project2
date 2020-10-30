@@ -1,0 +1,815 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700&subset=latin,latin-ext'> 
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/plugin.js"></script>
+
+  <title>|гаражная МАФИЯ| магазин автозапчастей</title>
+</head>
+<body class="main-page">
+</head>
+<body class="main-page">
+  <header> 
+    <div class="header-top-section">
+      <div>
+        <span><strong>График работы:</strong></span> 
+        <span><strong>Пн-Пт:</strong>9:00-19:00</span>
+        <span><strong>Сб-Вс:</strong> 10:00-17:00</span> 
+        <span><strong>On-line:</strong> 24/7</span>
+      </div>
+      <div>
+        <span><a href="tel:+375290000000">+375 (29) 000-00-00</a></span>
+        <span><a href="mailto:garagnaya_mafiya@gmail.com">garagnaya_mafiya@gmail.com</a></span>
+        <span>г. Минск, пр. Победителей 2</span>
+      </div>
+    </div>
+    <div class="header-bottom-section">
+      <div class="header__logo">
+        <div><img src="images/content/logo2.png"></div>
+      </div>
+
+      <form>
+        <div class="header__search1">
+          <input type="text" placeholder="Введите название для поиска">
+          <button type="submit">&#128270;</button>
+        </div>	
+        <div class="header__search2">
+          <input type="text" placeholder="Введите VIN для поиска">
+          <button type="submit">&#128270;</button>
+        </div>
+      </form>
+  </div>
+  <nav class="site-menu">
+    <ul>
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="catalog.html">Каталог</a></li>
+      <li><a href="pay-and-deliver.html">Оплата и<br>доставка</a></li>
+      <li><a href="sales.html">Скидки</a></li>
+      <li><a href="contacts.html">Контакты</a></li>
+      <li><a href="basket2.html">Корзина</a></li>
+    </ul> 
+  </nav>
+  </header>
+   
+<div class="content-container">
+    <div class="content-products">
+        <div class="selectors">
+            <form>
+               
+                <div class="filter-title">
+                    <label>Выберите производителя</label>
+                </div>
+
+                <div class="filter-producer__block">
+                    <div class="filter-producer">
+                        <input type="checkbox" name="aisin" id="aisin" value="aisin">
+                        <label for="aisin">
+                            AISIN<sup>(70)</sup>
+                        </label>
+                    </div>
+            
+                    <div class="filter-producer">
+                        <input type="checkbox" name="asam" id="asam" value="asam">
+                        <label for="asam">
+                            ASAM<sup>(5)</sup>
+                        </label>
+                    </div>
+            
+                    <div class="filter-producer">
+                        <input type="checkbox" name="ashika" id="ashika" value="ashika">
+                        <label for="ashika">
+                            ashika<sup>(10)</sup>
+                        </label>
+                    </div>
+            
+                    <div class="filter-producer">
+                        <input type="checkbox" name="blue-print" id="blue-print" value="blue-print">
+                        <label for="blue-print">
+                            blue print<sup>(45)</sup>
+                        </label>
+                    </div>
+
+                    <div class="filter-producer">
+                        <input type="checkbox" name="essassone" id="essassone" value="essassone">
+                        <label for="essassone">
+                            essassone<sup>(2)</sup>
+                        </label>
+                    </div>
+
+                    <div class="filter-producer">
+                        <input type="checkbox" name="exedy" id="exedy" value="exedy">
+                        <label for="exedy">
+                            exedy<sup>(181)</sup>
+                        </label>
+                    </div>
+
+                    <div class="filter-producer">
+                        <input type="checkbox" name="fenox" id="fenox" value="fenox">
+                        <label for="fenox">
+                            fenox<sup>(13)</sup>
+                        </label>
+                    </div>
+
+                    <div class="filter-producer">
+                        <input type="checkbox" name="km-germany" id="km-germany" value="km-germany">
+                        <label for="km-germany">
+                            km germany<sup>(36)</sup>
+                        </label>
+                    </div>
+
+                    <div class="filter-producer">
+                        <input type="checkbox" name="luk" id="luk" value="luk">
+                        <label for="luk">
+                            luk<sup>(182)</sup>
+                        </label>
+                    </div>
+
+                    <div class="filter-producer">
+                        <input type="checkbox" name="mecarm" id="mecarm" value="mecarm">
+                        <label for="mecarm">
+                            mecarm<sup>(110)</sup>
+                        </label>
+                    </div>
+
+                    <div class="filter-producer">
+                        <input type="checkbox" name="sachs" id="sachs" value="sachs">
+                        <label for="sachs">
+                            sachs<sup>(262)</sup>
+                        </label>
+                    </div>
+
+                    <div class="filter-producer">
+                        <input type="checkbox" name="valeo" id="valeo" value="valeo">
+                        <label for="valeo">
+                            valeo<sup>(259)</sup>
+                        </label>
+                    </div>
+                </div>
+               
+                <div class="filter-title">
+                    <label>Выберите модель</label>
+                </div>
+
+                <div class="filter-model__block">
+                    <div class="filter-model">
+                    <input type="checkbox" name="bentley" id="bentley" value="bentley">
+                    <label for="bentley">
+                        bentley
+                    </label>
+                    </div>
+        
+                    <div class="filter-model">
+                    <input type="checkbox" name="bmw" id="bmw" value="bmw">
+                    <label for="bmw">
+                        bmw
+                    </label>
+                    </div>
+        
+                    <div class="filter-model">
+                    <input type="checkbox" name="bugatti" id="bugatti" value="bugatti">
+                    <label for="bugatti">
+                        bugatti
+                    </label>
+                    </div>
+        
+                    <div class="filter-model">
+                    <input type="checkbox" name="land-rover" id="land-rover" value="land-rover">
+                    <label for="land-rover">
+                        land-rover
+                    </label>
+                    </div>
+
+                    <div class="filter-model">
+                    <input type="checkbox" name="cadillac" id="cadillac" value="cadillac">
+                    <label for="cadillac">
+                        cadillac
+                    </label>
+                    </div>
+
+                    <div class="filter-model">
+                    <input type="checkbox" name="chevrolet" id="chevrolet" value="chevrolet">
+                    <label for="chevrolet">
+                        chevrolet
+                    </label>
+                    </div>
+
+                    <div class="filter-model">
+                    <input type="checkbox" name="honda" id="honda" value="honda">
+                    <label for="honda">
+                        honda
+                    </label>
+                    </div>
+
+                    <div class="filter-model">
+                    <input type="checkbox" name="lamborghini" id="lamborghini" value="lamborghini">
+                    <label for="lamborghini">
+                        lamborghini
+                    </label>
+                    </div>
+
+                    <div class="filter-model">
+                    <input type="checkbox" name="hundai" id="hundai" value="hundai">
+                    <label for="hundai">
+                        hundai
+                    </label>
+                    </div>
+
+                    <div class="filter-model">
+                    <input type="checkbox" name="mercedes-benz" id="mercedes-benz" value="mercedes-benz">
+                    <label for="mercedes-benz">
+                        mercedes-benz
+                    </label>
+                    </div>
+
+                    <div class="filter-model">
+                    <input type="checkbox" name="volkswagen" id="volkswagen" value="volkswagen">
+                    <label for="volkswagen">
+                        volkswagen
+                    </label>
+                    </div>
+
+                    <div class="filter-model">
+                    <input type="checkbox" name="mazda" id="mazda" value="mazda">
+                    <label for="mazda">
+                        mazda
+                    </label>
+                    </div>
+
+                    <div class="filter-model">
+                    <input type="checkbox" name="mustang" id="mustang" value="mustang">
+                    <label for="mustang">
+                        mustang
+                    </label>
+                    </div>
+
+                    <div class="filter-model">
+                    <input type="checkbox" name="volvo" id="volvo" value="volvo">
+                    <label for="volvo">
+                        volvo
+                    </label>
+                    </div>
+
+                    <div class="filter-model">
+                    <input type="checkbox" name="mitsubishi" id="mitsubishi" value="mitsubishi">
+                    <label for="mitsubishi">
+                        mitsubishi
+                    </label>
+                    </div>
+
+                    <div class="filter-model">
+                    <input type="checkbox" name="ford" id="ford" value="ford">
+                    <label for="ford">
+                        ford
+                    </label>
+                    </div>
+
+                    <div class="filter-model">
+                    <input type="checkbox" name="nissan" id="nissan" value="nissan">
+                    <label for="nissan">
+                        nissan
+                    </label>
+                    </div>
+
+                    <div class="filter-model">
+                    <input type="checkbox" name="toyota" id="toyota" value="toyota">
+                    <label for="toyota">
+                        toyota
+                    </label>
+                    </div>
+
+                    <div class="filter-model">
+                    <input type="checkbox" name="suzuki" id="suzuki" value="suzuki">
+                    <label for="suzuki">
+                        suzuki
+                    </label>
+                    </div>
+
+                    <div class="filter-model">
+                    <input type="checkbox" name="peugeot" id="peugeot" value="peugeot">
+                    <label for="peugeot">
+                        peugeot
+                    </label>
+                    </div>
+                </div>
+                
+            </form>
+
+              <div class="price-filter">
+                <div class="filter-title">
+                    <p>Выберите цену</p>
+                </div>
+                <div class="range-price" id="rangeV"></div>
+                <input id="range" type="range" min="5" max="70" value="5" step="1">
+            </div>
+        </div>
+        
+        <div class="products">
+            <div class="first-list">
+                <div class="products__text-navigation">
+                    <h1>Корзина сцепления</h1>
+                    <p>Автозапчасти &rsaquo; Корзина сцепления</p>
+                </div>
+
+                <div class="product-pre-card">
+                    
+                    <div class="product-pre-card__img">
+                        <span>код А.3667569</span>
+                        <img src="images/content/catalog/adg03219n blue_print.jpg">
+                    </div>
+                        <div class="information">
+                            <div class="subtitle"><a href="product-card.html">BLUE PRINT ADG03219N</a></div>
+                            <div class="category">Корзина сцепления</div>
+                            <div class="additional-inf">
+                                <div>
+                                    <span>Вес</span>
+                                    <span>2.230 кг</span>
+                                </div>
+                                <div>
+                                    <span>Внешний диаметр</span>
+                                    <span>172 мм</span>
+                                </div>
+                                <div>
+                                    <span>Внутренний диаметр</span>
+                                    <span>107 мм</span>
+                                </div>
+                                <div>
+                                    <span>Необх. кол-во</span>
+                                    <span>1</span>
+                                </div>
+                                <div>
+                                    <span>Толщина</span>
+                                    <span>34 мм</span>
+                                </div>
+                                <div>
+                                    <span>Страна-производитель</span>
+                                    <span>Великобритания</span>
+                                </div>
+                                <div>Корзина сцепления</div>
+                            </div>
+                        </div>
+                        
+                        <div class="product-price">
+                            <div>
+                                <span class="old-price">58.80 р.</span> 
+                                <span class="sale-economy">Экономия -9<sup>18</sup>р.</span>
+                            </div>
+                            <span class="new-price">49.62р</span>
+                        
+                            <form class="toBasket">
+                                <span class="input-number ">
+                                    <input id="amount" ENGINE="text" name="count" value="1" class="form-control form-number ">
+                                    <div class="btn-count btn-count-plus" value="+" onClick="change('amount',0,100, 1);">+</div>
+                                    <div class="btn-count btn-count-minus" value="-" onClick="change('amount',0,100,-1);">-</div>
+                                </span>
+                                <a rel="nofollow" href="#" class="btn-default">В корзину</a>
+                            </form>
+                        </div>
+                </div>
+
+                <div class="product-pre-card">
+                    
+                    <div class="product-pre-card__img">
+                        <span>код А.3883062</span>
+                        <img src="images/content/catalog/hyc710 exedy.jpg">
+                    </div>
+                        <div class="information">
+                            <div class="subtitle"><a href="product-card.html">EXEDY HYC710</a></div>
+                            <div class="category">Корзина сцепления</div>
+                            <div class="additional-inf">
+                                <div>
+                                    <span>Внешний диаметр</span>
+                                    <span>184 мм</span>
+                                </div>
+                                <div>
+                                    <span>Внутренний диаметр</span>
+                                    <span>125 мм</span>
+                                </div>
+                                <div>
+                                    <span>Диаметр фаски</span>
+                                    <span>222.25 мм</span>
+                                </div>
+                                <div>
+                                    <span>Страна-производитель</span>
+                                    <span>Великобритания</span>
+                                </div>
+                                <div>Корзина сцепления</div>
+                            </div>
+                        </div>
+                        
+                        <div class="product-price">
+                            <div>
+                                <span class="old-price">59.21 р.</span> 
+                                <span class="sale-economy">Экономия -9<sup>17</sup>р.</span>
+                            </div>
+                            <span class="new-price">50.04р</span>
+                        
+                            <form class="toBasket">
+                                <span class="input-number ">
+                                    <input id="amount1" ENGINE="text" name="count" value="1" class="form-control form-number ">
+                                    <div class="btn-count btn-count-plus" value="+" onClick="change('amount1',0,100, 1);">+</div>
+                                    <div class="btn-count btn-count-minus" value="-" onClick="change('amount1',0,100,-1);">-</div>
+                                </span>
+                                <a rel="nofollow" href="#" class="btn-default">В корзину</a>
+                            </form>
+                        </div>
+                </div>
+
+                <div class="product-pre-card">
+                    
+                    <div class="product-pre-card__img">
+                        <span>код А.3328724</span>
+                        <img src="images/content/catalog/tp2129c3 fenox.jpg">
+                    </div>
+                        <div class="information">
+                            <div class="subtitle"><a href="product-card.html">FENOX TP2129C3</a></div>
+                            <div class="category">Корзина сцепления</div>
+                            <div class="additional-inf">
+                                <div>
+                                    <span>Страна-производитель</span>
+                                    <span>Беларусь</span>
+                                </div>
+                                <div>Подшипник выжимной муфты сцепления</div>
+                            </div>
+                        </div>
+                        
+                        <div class="product-price">
+                            <div>
+                                <span class="old-price">58.80 р.</span> 
+                                <span class="sale-economy">Экономия -9<sup>18</sup>р.</span>
+                            </div>
+                            <span class="new-price">49.62р</span>
+                        
+                            <form class="toBasket">
+                                <span class="input-number ">
+                                    <input id="amount2" ENGINE="text" name="count" value="1" class="form-control form-number ">
+                                    <div class="btn-count btn-count-plus" value="+" onClick="change('amount2',0,100, 1);">+</div>
+                                    <div class="btn-count btn-count-minus" value="-" onClick="change('amount2',0,100,-1);">-</div>
+                                </span>
+                                <a rel="nofollow" href="#" class="btn-default">В корзину</a>
+                            </form>
+                        </div>
+                </div>
+
+                <div class="product-pre-card">
+                    
+                    <div class="product-pre-card__img">
+                        <span>код А.3667569</span>
+                        <img src="images/content/catalog/adg03219n blue_print.jpg">
+                    </div>
+                        <div class="information">
+                            <div class="subtitle"><a href="product-card.html">BLUE PRINT ADG03219N</a></div>
+                            <div class="category">Корзина сцепления</div>
+                            <div class="additional-inf">
+                                <div>
+                                    <span>Вес</span>
+                                    <span>2.230 кг</span>
+                                </div>
+                                <div>
+                                    <span>Внешний диаметр</span>
+                                    <span>172 мм</span>
+                                </div>
+                                <div>
+                                    <span>Внутренний диаметр</span>
+                                    <span>107 мм</span>
+                                </div>
+                                <div>
+                                    <span>Необх. кол-во</span>
+                                    <span>1</span>
+                                </div>
+                                <div>
+                                    <span>Толщина</span>
+                                    <span>34 мм</span>
+                                </div>
+                                <div>
+                                    <span>Страна-производитель</span>
+                                    <span>Великобритания</span>
+                                </div>
+                                <div>Корзина сцепления</div>
+                            </div>
+                        </div>
+                        
+                        <div class="product-price">
+                            <div>
+                                <span class="old-price">58.80 р.</span> 
+                                <span class="sale-economy">Экономия -9<sup>18</sup>р.</span>
+                            </div>
+                            <span class="new-price">49.62р</span>
+                        
+                            <form class="toBasket">
+                                <span class="input-number ">
+                                    <input id="amount3" ENGINE="text" name="count" value="1" class="form-control form-number ">
+                                    <div class="btn-count btn-count-plus" value="+" onClick="change('amount3',0,100, 1);">+</div>
+                                    <div class="btn-count btn-count-minus" value="-" onClick="change('amount3',0,100,-1);">-</div>
+                                </span>
+                                <a rel="nofollow" href="#" class="btn-default">В корзину</a>
+                            </form>
+                        </div>
+                </div>
+
+                <div class="product-pre-card">
+                    
+                    <div class="product-pre-card__img">
+                        <span>код А.3883062</span>
+                        <img src="images/content/catalog/hyc710 exedy.jpg">
+                    </div>
+                        <div class="information">
+                            <div class="subtitle"><a href="product-card.html">EXEDY HYC710</a></div>
+                            <div class="category">Корзина сцепления</div>
+                            <div class="additional-inf">
+                                <div>
+                                    <span>Внешний диаметр</span>
+                                    <span>184 мм</span>
+                                </div>
+                                <div>
+                                    <span>Внутренний диаметр</span>
+                                    <span>125 мм</span>
+                                </div>
+                                <div>
+                                    <span>Диаметр фаски</span>
+                                    <span>222.25 мм</span>
+                                </div>
+                                <div>
+                                    <span>Страна-производитель</span>
+                                    <span>Великобритания</span>
+                                </div>
+                                <div>Корзина сцепления</div>
+                            </div>
+                        </div>
+                        
+                        <div class="product-price">
+                            <div>
+                                <span class="old-price">59.21 р.</span> 
+                                <span class="sale-economy">Экономия -9<sup>17</sup>р.</span>
+                            </div>
+                            <span class="new-price">50.04р</span>
+                        
+                            <form class="toBasket">
+                                <span class="input-number ">
+                                    <input id="amount4" ENGINE="text" name="count" value="1" class="form-control form-number ">
+                                    <div class="btn-count btn-count-plus" value="+" onClick="change('amount4',0,100, 1);">+</div>
+                                    <div class="btn-count btn-count-minus" value="-" onClick="change('amount4',0,100,-1);">-</div>
+                                </span>
+                                <a rel="nofollow" href="#" class="btn-default">В корзину</a>
+                            </form>
+                        </div>
+                </div>
+            </div>
+
+            <div class="second-list">
+                <div class="products__text-navigation">
+                    <h1>Корзина сцепления</h1>
+                    <p>Автозапчасти &rsaquo; Корзина сцепления</p>
+                </div>
+                <div class="product-pre-card">
+                    
+                    <div class="product-pre-card__img">
+                        <span>код А.3328724</span>
+                        <img src="images/content/catalog/tp2129c3 fenox.jpg">
+                    </div>
+                        <div class="information">
+                            <div class="subtitle"><a href="product-card.html">FENOX TP2129C3</a></div>
+                            <div class="category">Корзина сцепления</div>
+                            <div class="additional-inf">
+                                <div>
+                                    <span>Страна-производитель</span>
+                                    <span>Беларусь</span>
+                                </div>
+                                <div>Подшипник выжимной муфты сцепления</div>
+                            </div>
+                        </div>
+                        
+                        <div class="product-price">
+                            <div>
+                                <span class="old-price">58.80 р.</span> 
+                                <span class="sale-economy">Экономия -9<sup>18</sup>р.</span>
+                            </div>
+                            <span class="new-price">49.62р</span>
+                        
+                            <form class="toBasket">
+                                <span class="input-number ">
+                                    <input id="amount5" ENGINE="text" name="count" value="1" class="form-control form-number ">
+                                    <div class="btn-count btn-count-plus" value="+" onClick="change('amount5',0,100, 1);">+</div>
+                                    <div class="btn-count btn-count-minus" value="-" onClick="change('amount5',0,100,-1);">-</div>
+                                </span>
+                                <a rel="nofollow" href="#" class="btn-default">В корзину</a>
+                            </form>
+                        </div>
+                </div>
+
+                <div class="product-pre-card">
+                    
+                    <div class="product-pre-card__img">
+                        <span>код А.3667569</span>
+                        <img src="images/content/catalog/adg03219n blue_print.jpg">
+                    </div>
+                        <div class="information">
+                            <div class="subtitle"><a href="product-card.html">BLUE PRINT ADG03219N</a></div>
+                            <div class="category">Корзина сцепления</div>
+                            <div class="additional-inf">
+                                <div>
+                                    <span>Вес</span>
+                                    <span>2.230 кг</span>
+                                </div>
+                                <div>
+                                    <span>Внешний диаметр</span>
+                                    <span>172 мм</span>
+                                </div>
+                                <div>
+                                    <span>Внутренний диаметр</span>
+                                    <span>107 мм</span>
+                                </div>
+                                <div>
+                                    <span>Необх. кол-во</span>
+                                    <span>1</span>
+                                </div>
+                                <div>
+                                    <span>Толщина</span>
+                                    <span>34 мм</span>
+                                </div>
+                                <div>
+                                    <span>Страна-производитель</span>
+                                    <span>Великобритания</span>
+                                </div>
+                                <div>Корзина сцепления</div>
+                            </div>
+                        </div>
+                        
+                        <div class="product-price">
+                            <div>
+                                <span class="old-price">58.80 р.</span> 
+                                <span class="sale-economy">Экономия -9<sup>18</sup>р.</span>
+                            </div>
+                            <span class="new-price">49.62р</span>
+                        
+                            <form class="toBasket">
+                                <span class="input-number ">
+                                    <input id="amount6" ENGINE="text" name="count" value="1" class="form-control form-number ">
+                                    <div class="btn-count btn-count-plus" value="+" onClick="change('amount6',0,100, 1);">+</div>
+                                    <div class="btn-count btn-count-minus" value="-" onClick="change('amount6',0,100,-1);">-</div>
+                                </span>
+                                <a rel="nofollow" href="#" class="btn-default">В корзину</a>
+                            </form>
+                        </div>
+                </div>
+
+                <div class="product-pre-card">
+                    
+                    <div class="product-pre-card__img">
+                        <span>код А.3883062</span>
+                        <img src="images/content/catalog/hyc710 exedy.jpg">
+                    </div>
+                        <div class="information">
+                            <div class="subtitle"><a href="product-card.html">HYC710</a></div>
+                            <div class="category">Корзина сцепления</div>
+                            <div class="additional-inf">
+                                <div>
+                                    <span>Внешний диаметр</span>
+                                    <span>184 мм</span>
+                                </div>
+                                <div>
+                                    <span>Внутренний диаметр</span>
+                                    <span>125 мм</span>
+                                </div>
+                                <div>
+                                    <span>Диаметр фаски</span>
+                                    <span>222.25 мм</span>
+                                </div>
+                                <div>
+                                    <span>Страна-производитель</span>
+                                    <span>Великобритания</span>
+                                </div>
+                                <div>Корзина сцепления</div>
+                            </div>
+                        </div>
+                        
+                        <div class="product-price">
+                            <div>
+                                <span class="old-price">59.21 р.</span> 
+                                <span class="sale-economy">Экономия -9<sup>17</sup>р.</span>
+                            </div>
+                            <span class="new-price">50.04р</span>
+                        
+                            <form class="toBasket">
+                                <span class="input-number ">
+                                    <input id="amount7" ENGINE="text" name="count" value="1" class="form-control form-number ">
+                                    <div class="btn-count btn-count-plus" value="+" onClick="change('amount7',0,100, 1);">+</div>
+                                    <div class="btn-count btn-count-minus" value="-" onClick="change('amount7',0,100,-1);">-</div>
+                                </span>
+                                <a rel="nofollow" href="#" class="btn-default">В корзину</a>
+                            </form>
+                        </div>
+                </div>
+            </div>
+
+            <div class="pagination">
+                <ul>
+                    <li><a class="one list-active" href="#">1</a></li>
+                    <li><a class="two" href="#">2</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+	<div class="footer-top">
+		<div class="to-phone-back">
+			<a href="#footerModal" class="btn show">Заказать звонок</a> 
+			<div class="overlay" id="footerModal">
+				<div class="modal">
+					<a href="#close" class="close"></a>
+					<form class="form-call">
+						<fieldset>
+							<legend>Введите Ваши данные для связи</legend>
+							
+							<div class="form-item">
+							<label class="label-styles" for="user-name">Имя:</label>
+							<div class="name input-field">  
+								<input id="user-name" name="text" placeholder="Введите Ваше имя" type="text">
+							</div>
+							</div>
+					
+							<div class="form-item">
+							<label class="label-styles" for="email">Email:</label>
+								<div class="email input-field"> 
+								<input type="email" id="email" name="email" placeholder="Введите адрес Вашей почты">
+								</div>
+							</div>
+					
+							<div class="form-item">
+							<label class="label-styles" for="telephone">Телефон:</label>
+								<div class="telephone input-field">    
+								<input id="telephone" name="telephone" type="tel" pattern="+8[0-9]{10}" placeholder="+375(--) --- -- --"/>
+								</div>
+							</div>
+
+							<div class="send">
+							<div>
+								<button class="btn close-form" id="send" name="send" type="submit">Отправить</button>
+							</div>
+							</div>
+							
+						</fieldset>
+						</form>
+					</div>
+				</div>
+		</div>
+        
+        <div class="adds-mail-submit">
+            <p>Для участия в скидочной программе<br>"для друзей" введите Вашу почту</p>
+            <input type="text" id="contact_email" name="contact[email]" placeholder="Введите Ваш e-mail">
+            <button class="btn" type="submit" title="Подтверждаю согласие">OK</button>
+        </div>
+        
+		<div class="socials">
+				<a href="https://www.facebook.com/" title="подписаться на нас в Facebook" target="_blank"><span class="facebook"></span></a>
+				<a href="https://twitter.com/?lang=ru" title="подписаться на нас в twitter" target="_blank"><span class="twitter"></span></a>
+				<a href="https://www.instagram.com/?hl=ru" title="подписаться на нас в Instagram" target="_blank"><span class="instagram"></span></a>
+		</div>
+	</div>
+	<div class="footer-text">
+	
+       		
+		<p>магазин авто-запчастей "гаражная |МАФИЯ|", <br>
+		юр.адрес: г. Минск, ул. Червякова, 1/1 каб 2.<br>
+		УНП 000000001.</p>
+		<p><a href="mailto:garagnaya_mafiya@gmail.com">garagnaya_mafiya@gmail.com</a><br>
+		г. Минск, пр. Победителей 2</p>
+		<p>В торговом реестре РБ c 04 августа 2020г.<br>
+		Рег. номер: 000002, Мингорисполком.</p>
+	</div>
+</footer>
+</div>
+<script>
+      const
+    range = document.getElementById('range'),
+    rangeV = document.getElementById('rangeV'),
+    setValue = ()=>{
+        const
+            newValue = Number( (range.value - range.min) * 100 / (range.max - range.min) ),
+            newPosition = 10 - (newValue * 0.2);
+        rangeV.innerHTML = `<span>${range.value}</span>`;
+        rangeV.style.left = `calc(${newValue}% + (${newPosition}px))`;
+    };
+document.addEventListener("DOMContentLoaded", setValue);
+range.addEventListener('input', setValue);
+
+function change(objName, min, max, step) {
+var obj = document.getElementById(objName);
+var tmp = +obj.value + step;
+if (tmp<min) tmp=min;
+if (tmp>max) tmp=max;
+obj.value = tmp;
+}
+
+</script>
+</body>
+</html>
